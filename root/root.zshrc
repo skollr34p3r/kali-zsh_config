@@ -170,3 +170,7 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 if [[ -f "/root/.api_tokens/vt_apikey" ]]; then
     export VT_APIKEY="$(cat /root/.api_tokens/vt_apikey 2> /dev/null)"
 fi
+
+# Set arrow keys for zsh history
+bindkey "$key[Up]" up-line-or-search
+bindkey "$key[Down]" down-line-or-search
