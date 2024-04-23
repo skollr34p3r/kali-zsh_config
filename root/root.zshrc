@@ -135,6 +135,7 @@ source $ZSH/oh-my-zsh.sh
 alias ipx="curl -s http://ipinfo.io/ip"
 alias sapgui="/opt/SAPClients/SAPGUI7.70rev1/bin/guilogon"
 alias sniffle="python3 /usr/share/sniffle.py"
+alias cl="usr/bin/clear"
 
 setopt interactivecomments
 setopt ignoreeof
